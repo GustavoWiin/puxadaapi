@@ -1,0 +1,16 @@
+{
+  "name": "vercel-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for API requests to hide API keys",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "18.x"
+  }
+}
