@@ -71,8 +71,8 @@ export default async function handler(req, res) {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Origin": "https://v6.consultabrhoje.com",
-        "Referer": "https://v6.consultabrhoje.com/",
+        "Origin": "https://v4.consultaoficialbr.com",
+        "Referer": "https://v4.consultaoficialbr.com/",
         "User-Agent": "Mozilla/5.0"
       },
       body: JSON.stringify({ cpf })
